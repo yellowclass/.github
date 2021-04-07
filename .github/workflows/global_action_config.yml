@@ -21,4 +21,4 @@ jobs:
             repos_to_ignore: yc_app,yc_tv
             committer_username: ${{ secrets.GLOBAL_WORKFLOW_COMMITTER_USERNAME }}
             committer_email: ${{ secrets.GLOBAL_WORKFLOW_COMMITTER_EMAIL }}
-            commit_message: "Automation: update global workflows"
+            commit_message: "Automation - Update global workflows"
