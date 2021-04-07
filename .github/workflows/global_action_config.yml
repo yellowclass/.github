@@ -1,0 +1,24 @@
+name: Global workflow to rule them all
+
+on:
+  push:
+      branches: [ master ]
+
+jobs:
+
+  replicate_changes:
+
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v2
+        - name: Replicating global workflow
+          uses: derberg/global-workflows-support@v0.0.9
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            files_to_ignore: global_action_config.yml
+            repos_to_ignore: yc_app,yc_tv
+            committer_username: ${{ secrets.GLOBAL_WORKFLOW_COMMITTER_USERNAME }}
+            committer_email: ${{ secrets.GLOBAL_WORKFLOW_COMMITTER_EMAIL }}
+            commit_message: "Automation: update global workflows"
