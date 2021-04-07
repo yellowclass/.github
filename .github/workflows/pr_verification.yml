@@ -1,0 +1,18 @@
+name: Global workflow to rule them all
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+
+  verify_pr_title:
+
+      runs-on: ubuntu-latest
+
+      steps:
+      - uses: deepakputhraya/action-pr-title@master
+        with:
+          regex: '(Automation|YT-[0-9]+)\s\-\s[A-Z]([a-z,\s,A-Z])+'
+          min_length: 20
+          max_length: 60
