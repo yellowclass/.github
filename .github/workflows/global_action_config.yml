@@ -16,7 +16,7 @@ jobs:
         - name: Replicating global workflow
           uses: derberg/global-workflows-support@v0.0.9
           with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
+            github_token: ${{ secrets.ADMIN_USER_TOKEN }}
             files_to_ignore: global_action_config.yml
             repos_to_ignore: yc_app,yc_tv
             committer_username: ${{ secrets.GLOBAL_WORKFLOW_COMMITTER_USERNAME }}
