@@ -8,8 +8,6 @@ In an attempt to streamline our development process, I am requesting you to go t
 
 * Did you assign a label to this PR? - [YES/NO]
 
-* Did you delete unrequired questions from this PR? [YES/NO]
-
 
 #### Following are required only if `base branch` is `@develop`
 
@@ -30,7 +28,5 @@ In an attempt to streamline our development process, I am requesting you to go t
 * Did you do a self-review of this PR? - [YES/NO]
 
 * Did you assign reviewers to this PR? - [YES/NO]
-
-* Link to the respecting PR for `base: @develop` or `base: @staging`: - 
 
 
