@@ -15,4 +15,4 @@ jobs:
         with:
           regex: '(Automation|YT-[0-9]+)\s\-\s[A-Z]([a-z,\s,A-Z])+'
           min_length: 20
-          max_length: 60
+          max_length: 65
