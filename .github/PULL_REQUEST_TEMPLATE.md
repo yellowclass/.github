@@ -1,9 +1,10 @@
-Hi!
+### Information
 
-In an attempt to streamline our development process, I am requesting you to go through the following steps - 
+- Jira: YT-<Number>
+- Link of PR pointing to `@develop`: 
+  
+### I've kept the following things in mind before raising the PR
 
-
-* Put the JIRA number `[YT-NNNN]` in the PR title.
-* Assign a label to this PR.
-* Do a self review of the PR.
-* Assign reviewers to this PR if the `base branch` is `@develop`.
+* I've put the JIRA number `[YT-NNNN]` in the PR title.
+* I've done a self review of the PR.
+* I've assigned reviewers to this PR.
